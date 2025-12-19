@@ -1,8 +1,11 @@
-![Header](https://cdn.modrinth.com/data/cached_images/dea4bb76039668e7476a0ed8e9a37f33d155ecd1_0.webp)
+![Header](https://raw.githubusercontent.com/rezeral/TMM-Extended/master/.github/assets/img/header.png)
 
 **🚂 A train murder mystery social game**
 
 This modpack expands [The Last Voyage of the Harpy Express](https://modrinth.com/modpack/harpy-express) with new roles, quality‑of‑life addons, furniture mods, performance improvements, and more customization options. It includes a fully decorated train + scenery by default, ready for you to modify.
+
+> **INFO:** This modpack is currently in active development, and I’m not fully familiar with how the Modrinth App handles modpacks. Because of this, updates may occasionally cause issues. If you experience any problems after an update, try creating a fresh instance of the modpack to see if that fixes issues.
+> If you encounter any bugs or issues, feel free to make a report on [GitHub](https://github.com/rezeral/TMM-Extended/issues)!
 
 ## 🔎 Modpack overview
 
@@ -10,6 +13,8 @@ These are some of the included mods *in addition* to the base modpack:
 
 - [Sodium](https://modrinth.com/mod/sodium) & [Iris Shaders](https://modrinth.com/mod/iris)
 - [Noelle's Roles - TMM](https://modrinth.com/mod/noelles-roles-tmm)
+- [Blood - TMM](https://modrinth.com/mod/tmm-blood)
+- [Harpy Express More Shooter Punishments](https://modrinth.com/mod/harpy-express-more-shooter-punishments)
 - [Supplementaries](https://modrinth.com/mod/supplementaries) & [Amendments](https://modrinth.com/mod/amendments)
 - [Immersive Furnitures](https://modrinth.com/mod/immersive-furniture)
 - [Handcrafted](https://modrinth.com/mod/handcrafted)
@@ -20,80 +25,83 @@ These are some of the included mods *in addition* to the base modpack:
 <details>
 <summary>Modlist</summary>
 
-- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-- [Entity Culling](https://modrinth.com/mod/entityculling)
-- [Immersive Furniture](https://modrinth.com/mod/immersive-furniture)
-- [Sodium](https://modrinth.com/mod/sodium)
-- [Not Enough Recipe Book - [NERB]](https://modrinth.com/mod/notenoughrecipebook)
-- [TxniLib](https://modrinth.com/mod/txnilib)
-- [Talking Heads](https://modrinth.com/mod/talkingheads)
+- [Axiom](https://modrinth.com/mod/axiom)
 - [Amendments](https://modrinth.com/mod/amendments)
-- [Yet Another World Protector](https://modrinth.com/mod/yawp)
-- [Melody](https://modrinth.com/mod/melody)
-- [Moonlight Lib](https://modrinth.com/mod/moonlight)
-- [Packet Fixer](https://modrinth.com/mod/packet-fixer)
-- [Cloth Config API](https://modrinth.com/mod/cloth-config)
-- [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
-- [Eating Animation](https://modrinth.com/mod/eating-animation)
-- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)
-- [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
-- [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
-- [Text Placeholder API](https://modrinth.com/mod/placeholder-api)
-- [Handcrafted](https://modrinth.com/mod/handcrafted)
-- [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
-- [Noelle's Roles - TMM](https://modrinth.com/mod/noelles-roles-tmm)
+- [Architectury API](https://modrinth.com/mod/architectury-api)
+- [AsyncParticles](https://modrinth.com/mod/asyncparticles)
+- [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - [BetterF3](https://modrinth.com/mod/betterf3)
-- [The Last Voyage of the Harpy Express (Mod)](https://modrinth.com/mod/harpy-express-mod)
-- [Particle Core](https://modrinth.com/mod/particle-core)
-- [Resourceful Lib](https://modrinth.com/mod/resourceful-lib)
+- [Blood - TMM](https://modrinth.com/mod/tmm-blood)
+- [Camera Overhaul](https://modrinth.com/mod/cameraoverhaul)
+- [Capes](https://modrinth.com/mod/capes)
+- [Carpet](https://modrinth.com/mod/carpet)
+- [CIT Resewn](https://modrinth.com/mod/cit-resewn)
+- [Cloth Config API](https://modrinth.com/mod/cloth-config)
+- [Controlling](https://modrinth.com/mod/controlling)
+- [CraterLib](https://modrinth.com/mod/craterlib)
+- [Drippy Loading Screen](https://modrinth.com/mod/drippy-loading-screen)
+- [Eating Animation](https://modrinth.com/mod/eating-animation)
+- [Entity Culling](https://modrinth.com/mod/entityculling)
+- [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)
+- [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+- [FerriteCore](https://modrinth.com/mod/ferrite-core)
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+- [Fancy Block Particles - Renewed](https://modrinth.com/mod/fbp-renewed)
+- [FancyMenu](https://modrinth.com/mod/fancymenu)
+- [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port)
+- [Fzzy Config](https://modrinth.com/mod/fzzy-config)
+- [Handcrafted](https://modrinth.com/mod/handcrafted)
+- [Harpy Express More Shooter Punishments](https://modrinth.com/mod/harpy-express-more-shooter-punishments)
+- [HarpyModLoader](https://modrinth.com/mod/harpymodloader)
+- [Held Item Tooltips](https://modrinth.com/mod/held-item-tooltips)
+- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
+- [Immersive Furniture](https://modrinth.com/mod/immersive-furniture)
+- [InvMove](https://modrinth.com/mod/invmove)
+- [Iris Shaders](https://modrinth.com/mod/iris)
+- [MCEF (Minecraft Chromium Embedded Framework)](https://modrinth.com/mod/mcef)
+- [Melody](https://modrinth.com/mod/melody)
+- [Mod Menu](https://modrinth.com/mod/modmenu)
+- [Moonlight Lib](https://modrinth.com/mod/moonlight)
 - [NBT Autocomplete](https://modrinth.com/mod/nbt-autocomplete)
 - [Necronomicon API](https://modrinth.com/mod/necronomicon)
-- [FerriteCore](https://modrinth.com/mod/ferrite-core)
-- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
-- [Fzzy Config](https://modrinth.com/mod/fzzy-config)
-- [Searchables](https://modrinth.com/mod/searchables)
-- [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port)
-- [Controlling](https://modrinth.com/mod/controlling)
-- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
-- [CraterLib](https://modrinth.com/mod/craterlib)
-- [Sodium Options Mod Compat](https://modrinth.com/mod/sodium-options-mod-compat)
-- [Iris Shaders](https://modrinth.com/mod/iris)
-- [Harpy Express More Shooter Punishments](https://modrinth.com/mod/harpy-express-more-shooter-punishments)
-- [Raised](https://modrinth.com/mod/raised)
-- [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)
-- [Held Item Tooltips](https://modrinth.com/mod/held-item-tooltips)
-- [Konkrete](https://modrinth.com/mod/konkrete)
-- [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-- [CIT Resewn](https://modrinth.com/mod/cit-resewn)
-- [Simple Discord RPC](https://modrinth.com/mod/simple-discord-rpc)
-- [Supplementaries](https://modrinth.com/mod/supplementaries)
-- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-- [HarpyModLoader](https://modrinth.com/mod/harpymodloader)
-- [Fabric API](https://modrinth.com/mod/fabric-api)
-- [FancyMenu](https://modrinth.com/mod/fancymenu)
-- [Carpet](https://modrinth.com/mod/carpet)
-- [Ratatouille](https://modrinth.com/mod/ratatouille)
-- [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
-- [InvMove](https://modrinth.com/mod/invmove)
-- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
+- [Noelle's Roles - TMM](https://modrinth.com/mod/noelles-roles-tmm)
+- [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
+- [Not Enough Recipe Book [NERB]](https://modrinth.com/mod/notenoughrecipebook)
 - [OctoLib](https://modrinth.com/mod/octo-lib)
+- [Packet Fixer](https://modrinth.com/mod/packet-fixer)
+- [Particle Core](https://modrinth.com/mod/particle-core)
+- [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
+- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
+- [Raised](https://modrinth.com/mod/raised)
+- [Ratatouille](https://modrinth.com/mod/ratatouille)
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
 - [Resource Pack Overrides](https://modrinth.com/mod/resource-pack-overrides)
-- [Axiom](https://modrinth.com/mod/axiom)
-- [Camera Overhaul](https://modrinth.com/mod/cameraoverhaul)
-- [Architectury API](https://modrinth.com/mod/architectury-api)
-- [Drippy Loading Screen](https://modrinth.com/mod/drippy-loading-screen)
-- [AsyncParticles](https://modrinth.com/mod/asyncparticles)
+- [Resourceful Lib](https://modrinth.com/mod/resourceful-lib)
+- [Searchables](https://modrinth.com/mod/searchables)
+- [Simple Discord RPC](https://modrinth.com/mod/simple-discord-rpc)
+- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
+- [Sodium](https://modrinth.com/mod/sodium)
+- [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 - [Sodium Options API](https://modrinth.com/mod/sodium-options-api)
-- [Mod Menu](https://modrinth.com/mod/modmenu)
+- [Sodium Options Mod Compat](https://modrinth.com/mod/sodium-options-mod-compat)
+- [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered)
+- [Supplementaries](https://modrinth.com/mod/supplementaries)
+- [Talking Heads](https://modrinth.com/mod/talkingheads)
+- [Text Placeholder API](https://modrinth.com/mod/placeholder-api)
+- [The Last Voyage of the Harpy Express (Mod)](https://modrinth.com/mod/harpy-express-mod)
+- [TxniLib](https://modrinth.com/mod/txnilib)
+- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)
+- [Yet Another World Protector](https://modrinth.com/mod/yawp)
+- [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus)
+- [Your Options Shall Be Respected (YOSBR)](https://modrinth.com/mod/yosbr)
 
 </details>
 
 Some of the features and content that are present *in addition* to the base modpack:
 
-- **Custom train blocks & furnitures**
+- **Custom train blocks, furnitures and layout**
 - **New roles** for more gameplay depth
-- **New tasks** *(WIP)*
-- **Multiple train layouts** *(Planned)*
 - **In‑game configuration menu for OPs** *(Planned)*
 - **Debug tools** to assist with customizing the map and game
 
@@ -101,7 +109,7 @@ Some of the features and content that are present *in addition* to the base modp
 
 Use `/listRoles` to view roles and `/setEnabledRole` to enable/disable them.
 
-### 🔪 Killer Roles
+### ![🔪 Killer Roles](https://github.com/rezeral/TMM-Extended/.github/img/killer.png)
 
 - **Morphling**
 <br>
@@ -109,14 +117,14 @@ Can morph into any alive player on a cooldown.
 
 - **Phantom**
 <br>
-Can turn invisibile on a cooldown. Held items are still visible!
+Can turn invisibile on a cooldown by pressing <kbd>G</kbd>. Held items are still visible!
 
 - **Swapper**
 <br>
 Can swap two people around the map on a cooldown.
 
 
-### 🥸 Neutral Roles
+### ![🥸 Neutral Roles](https://github.com/rezeral/TMM-Extended/.github/img/neutral.png)
 
 - **Jester**
 <br>
@@ -146,13 +154,13 @@ Can purchase *Firecrackers*, *Lockpicks*, *Notes*, and *Delusion Vials*
 <br>
 Gains coins passively over time
 
-### 👤 Civilian Roles
+### ![👤 Civilian Roles](https://github.com/rezeral/TMM-Extended/.github/img/civilian.png)
 
 - **Conductor**
 <br>
-Has a key to every door on the train.
+Has a Master Key to every door on the train.
 <br>
-This key will drop after the host dies, make sure everyone knows you have it, or the killers can clear themselves with it!
+The Master Key will drop if the Conductor dies.
 
 - **Bartender**
 <br>
@@ -174,17 +182,31 @@ Gains coins passively over time.
 
 - **Recaller**
 <br>
-Can save a location to teleport to later from 100 coins.
+Can save a location to teleport to later by pressing <kbd>G</kbd> for 100 coins.
 <br>
 Gains 50 coins per task done.
 
 - **Coroner**
 <br>
-Can see the time of death and the reason of the death and role of dead bodies.
+Can see the role, reason and time of the death of the dead bodies.
 
 - **Voodoo**
 <br>
 Can choose one player that will die alongside themselves.
+
+- **Mimic**
+<br>
+Appears as a Killer Cohort to other killers
+<br>
+Spawns with a Fake Knife
+<br>
+Can purchase *Lockpicks*, *Delusion Vials*, *Firecrackers* and *Notes*.
+<br>
+Gains coins passively over time.
+
+- **Guesser** *(Disabled by default)*
+<br>
+Can guess player's role: if the guess is correct the player dies; if incorrect, the Guesser dies.
 
 <details>
 <summary>Bonus roles</summary>
@@ -213,10 +235,10 @@ Spawns with a revolver and a grenade
 
 1. Host a server with the provided world.
 2. Ensure the server/world has these settings:
-   * Peaceful difficulty
-   * Adventure mode
-   * PvP enabled
-   * Command blocks enabled
+   - Peaceful difficulty
+   - Adventure mode
+   - PvP enabled
+   - Command blocks enabled
 3. Minimum **6 players** required.
 4. Players board the train in the lobby.
 5. Once 6+ players are aboard, ring the horn to begin.
