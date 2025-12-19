@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = tmm_options
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765224409414
+  last_edited_time = 1766042301128
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:775f687f-061e-43cf-9509-6043348f533c-1765224262877] = [groups:][instances:]
+  [loading_requirement_container_meta:b452800c-7daf-4f4d-ac40-50a54700f74c-1766042298431] = [groups:][instances:]
 }
 
 customization {
@@ -44,8 +44,8 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = 42393e54-91d7-4c37-89e0-bbb46fde1507-1764584148331
-  [executable_action_instance:64908b2c-6174-4eb2-b849-33150d721980-1764586409066][action_type:closegui] = 
-  [executable_block:42393e54-91d7-4c37-89e0-bbb46fde1507-1764584148331][type:generic] = [executables:64908b2c-6174-4eb2-b849-33150d721980-1764586409066;]
+  [executable_action_instance:b70abc69-405b-4bd5-a2a8-63ac2f22897b-1766042192188][action_type:closegui] = 
+  [executable_block:42393e54-91d7-4c37-89e0-bbb46fde1507-1764584148331][type:generic] = [executables:b70abc69-405b-4bd5-a2a8-63ac2f22897b-1766042192188;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -76,8 +76,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 1922
-  auto_sizing_base_screen_height = 1012
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = bottom-centered
   x = -100
@@ -138,7 +138,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.5
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
@@ -202,7 +202,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.5
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
@@ -267,7 +267,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.5
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1080
@@ -312,7 +312,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.5
   auto_sizing = false
   auto_sizing_base_screen_width = 1922
   auto_sizing_base_screen_height = 1012
@@ -447,7 +447,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.5
   auto_sizing = false
   auto_sizing_base_screen_width = 1922
   auto_sizing_base_screen_height = 1012

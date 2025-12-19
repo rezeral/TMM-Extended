@@ -6,7 +6,8 @@
   "sign": {
     "pixel_consistent": true,
     // Accepted range: 0.0 to 5.0
-    "text_color_multiplier": 1.2
+    "text_color_multiplier": 1.2,
+    "sign_blacklist": []
   },
   "projectiles": {
     "snowball_3d": true,

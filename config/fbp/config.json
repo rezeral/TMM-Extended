@@ -1,6 +1,7 @@
 {
   "global": {
     "enabled": true,
+    "fastSettings": false,
     "locked": false,
     "disableOculusWarning": false,
     "freezeEffect": false,
@@ -118,7 +119,7 @@
     "sizeMultiplier": 1.0
   },
   "overlay": {
-    "freezeEffectOverlay": true,
+    "freezeEffectOverlay": false,
     "freezeEffectColor": 33023
   }
 }

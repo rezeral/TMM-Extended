@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = generic_dirt_message_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1764211791940
+  last_edited_time = 1766058920088
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:440f87f4-1a9a-433d-a142-eb905a84d2ef-1764211771973] = [groups:][instances:]
+  [loading_requirement_container_meta:96e9ac50-565c-4c04-8794-eea12de71887-1766058918126] = [groups:][instances:]
 }
 
 customization {
@@ -37,7 +37,7 @@ menu_background {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
@@ -47,8 +47,8 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
-  show_screen_background_overlay_on_custom_background = false
-  apply_vanilla_background_blur = false
+  show_screen_background_overlay_on_custom_background = true
+  apply_vanilla_background_blur = true
 }
 
 layout_action_executable_blocks {

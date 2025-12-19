@@ -95,7 +95,7 @@
     }
   },
   "visuals": {
-    "minBrightness": 0,
+    "minBrightness": 100,
     "liquidOpacity": 100,
     "showBiomes": false,
     "showAnnotations": true,
@@ -129,6 +129,7 @@
     "showCollisionMesh": false,
     "showLightBlocks": false,
     "showStructureVoidBlocks": false,
+    "showMovingPistonBlocks": false,
     "expandHitboxesToFullCube": false,
     "makeFluidHitboxesSolid": false,
     "preventInteractions": false
@@ -142,7 +143,9 @@
   "builderTools": {
     "showBuilderToolSlot": true,
     "directionLock": true,
-    "symmetryRange": 128
+    "symmetryRange": 128,
+    "magicSelectCount": 128,
+    "middleClick": "EXTEND_SELECT"
   },
   "creativeMenu": {
     "showColorPicker": true,
@@ -189,6 +192,7 @@
       "history",
       "clipboard",
       "target_info",
+      "tool_masks",
       "fill"
     ],
     "defaultLayout": "[Window][###Tools]\nPos\u003d0,0\nSize\u003d300,250\nCollapsed\u003d0\nDockId\u003d0x00000003,0\n\n[Window][###Tool Options]\nPos\u003d0,250\nSize\u003d300,750\nCollapsed\u003d0\nDockId\u003d0x00000004,0\n\n[Window][###Clipboard]\nPos\u003d1700,0\nSize\u003d300,200\nCollapsed\u003d0\nDockId\u003d0x0000000D,0\n\n[Window][###TargetInfo]\nPos\u003d1700,0\nSize\u003d300,200\nCollapsed\u003d0\nDockId\u003d0x0000000D,1\n\n[Window][###Palette]\nPos\u003d1700,200\nSize\u003d300,200\nCollapsed\u003d0\nDockId\u003d0x0000000E,0\n\n[Window][###ActiveBlock]\nPos\u003d1700,400\nSize\u003d300,100\nCollapsed\u003d0\nDockId\u003d0x0000000C,0\n\n[Window][###History]\nPos\u003d1700,500\nSize\u003d300,300\nCollapsed\u003d0\nDockId\u003d0x0000000A,0\n\n[Window][###WorldProperties]\nPos\u003d1700,800\nSize\u003d300,200\nCollapsed\u003d0\nDockId\u003d0x00000008,0\n\n[Docking][Data]\nDockSpace           ID\u003d0x8B93E3BD Window\u003d0xA787BDB4 Pos\u003d0,0 Size\u003d2000,1000 Split\u003dX\nDockNode          ID\u003d0x00000005 Parent\u003d0x8B93E3BD SizeRef\u003d1700,1000 Split\u003dX\n DockNode        ID\u003d0x00000001 Parent\u003d0x00000005 SizeRef\u003d300,1000 Split\u003dY\n   DockNode      ID\u003d0x00000003 Parent\u003d0x00000001 SizeRef\u003d300,250 Selected\u003d0x80AFE82B\n   DockNode      ID\u003d0x00000004 Parent\u003d0x00000001 SizeRef\u003d300,750 Selected\u003d0xECA27DCB\n DockNode        ID\u003d0x00000002 Parent\u003d0x00000005 SizeRef\u003d1400,1000 CentralNode\u003d1 Selected\u003d0x1F1A625A\nDockNode          ID\u003d0x00000006 Parent\u003d0x8B93E3BD SizeRef\u003d300,1000 Split\u003dY Selected\u003d0x34064FA7\n DockNode        ID\u003d0x00000007 Parent\u003d0x00000006 SizeRef\u003d300,800 Split\u003dY Selected\u003d0x34064FA7\n   DockNode      ID\u003d0x00000009 Parent\u003d0x00000007 SizeRef\u003d300,500 Split\u003dY Selected\u003d0x34064FA7\n     DockNode    ID\u003d0x0000000B Parent\u003d0x00000009 SizeRef\u003d300,400 Split\u003dY Selected\u003d0x34064FA7\n       DockNode  ID\u003d0x0000000D Parent\u003d0x0000000B SizeRef\u003d300,200 Selected\u003d0x34064FA7\n       DockNode  ID\u003d0x0000000E Parent\u003d0x0000000B SizeRef\u003d300,200 Selected\u003d0x1E514AEA\n     DockNode    ID\u003d0x0000000C Parent\u003d0x00000009 SizeRef\u003d300,100 Selected\u003d0x1D216E21\n   DockNode      ID\u003d0x0000000A Parent\u003d0x00000007 SizeRef\u003d300,300 Selected\u003d0xFE0E9DDF\n DockNode        ID\u003d0x00000008 Parent\u003d0x00000006 SizeRef\u003d300,200 Selected\u003d0x602D8B84",
@@ -196,9 +200,9 @@
     "globalScale": 1.0,
     "savedCustomTheme": "ASel0AAAlJbUd1aURhcmsAAA\u003d\u003d",
     "showCloseWindowButton": false,
-    "showToolMaskOpenWarning": true,
+    "showToolMaskOpenWarning": false,
     "showNon90DegreeRotationWarning": false,
-    "showQuickReplaceCtrlClickTip": true,
+    "showQuickReplaceCtrlClickTip": false,
     "dockedInventoryWithPalette": true,
     "rootEditorPalette": {
       "blocks": [],

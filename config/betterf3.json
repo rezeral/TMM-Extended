@@ -1,6 +1,16 @@
 {
 	"modules_left": [
 		{
+			"name": "fps",
+			"color_high": 5635925,
+			"color_med": 16777045,
+			"color_low": 16733525,
+			"enabled": true,
+			"lines": {
+				"fps": true
+			}
+		}, 
+		{
 			"name": "coords",
 			"name_color": 16733525,
 			"color_x": 16733525,
@@ -56,6 +66,25 @@
 				"fluid_tags": true,
 				"nothing2": true,
 				"targeted_entity": true
+			}
+		}, 
+		{
+			"name": "entity",
+			"name_color": 16733525,
+			"value_color": 16777045,
+			"total_entities_color": 16755200,
+			"enabled": true,
+			"lines": {
+				"particles": true,
+				"entities": true,
+				"monster": true,
+				"creature": true,
+				"ambient": true,
+				"axolotls": true,
+				"underground_water_creature": true,
+				"water_creature": true,
+				"water_ambient": true,
+				"misc": true
 			}
 		}
 	],

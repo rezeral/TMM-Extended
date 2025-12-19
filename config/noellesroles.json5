@@ -8,5 +8,12 @@
 	// Allow Natural deaths to trigger voodoo (deaths without an assigned killer)
 	voodooNonKillerDeaths: false,
 	// Makes voodoos act like Evil players when shot by a revolver (no backfire, no gun lost)
-	voodooShotLikeEvil: true
+	voodooShotLikeEvil: false,
+	// How the guesser dies after an incorrect guess.
+	// "none" (default) - nothing happens, 2 minute cooldown applied
+	// "death" kills the player with a voodoo death message
+	// "explode" explodes the guesser, killing anyone nearby
+	guesserDiesAfterIncorrectGuess: "death",
+	// How many players must be online for the Master Key to look like a master key and not a lockpick. (0 = key always looks like a lockpick, 1-6 = key always looks normal)
+	playerCountToMakeConducterKeyVisible: 10
 }

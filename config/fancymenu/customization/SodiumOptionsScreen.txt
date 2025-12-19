@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1764572477367
+  last_edited_time = 1766106919422
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:c5897ab8-0e7f-4cdb-812d-6bbc25d175f8-1764572473532] = [groups:][instances:]
+  [loading_requirement_container_meta:b2fa3980-0aea-4be1-bcb7-217ee3bb0882-1766106916236] = [groups:][instances:]
 }
 
 customization {
@@ -25,7 +25,7 @@ customization {
 
 customization {
   action = backgroundoptions
-  keepaspectratio = false
+  keepaspectratio = true
 }
 
 scroll_list_customization {
@@ -35,8 +35,8 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
-  show_screen_background_overlay_on_custom_background = false
-  apply_vanilla_background_blur = false
+  show_screen_background_overlay_on_custom_background = true
+  apply_vanilla_background_blur = true
 }
 
 layout_action_executable_blocks {
