@@ -3,9 +3,6 @@ type = customizablemenus
 net.minecraft.class_423 {
 }
 
-net.minecraft.class_429 {
-}
-
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 

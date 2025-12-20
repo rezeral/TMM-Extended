@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:0.0
 graphicsMode:1
 guiScale:4
@@ -157,7 +157,6 @@ key_key.raised.options:key.keyboard.unknown
 key_talkingheads.keybinding.modToggle:key.keyboard.unknown
 key_talkingheads.keybinding.modSettings:key.keyboard.unknown
 key_Toggle Blood:key.keyboard.b
-key_key.trainmurdermystery.instinct:key.keyboard.left.alt
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.unknown
@@ -168,11 +167,12 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_key.wathe.instinct:key.keyboard.left.alt
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.25
+soundCategory_master:0.35
 soundCategory_music:0.0
 soundCategory_record:0.1
 soundCategory_weather:1.0

@@ -10,11 +10,10 @@
     "net.minecraft.class_5375": true,
     "net.minecraft.class_4189": true,
     "net.minecraft.class_440": true,
-
-    "dev.doctor4t.trainmurdermystery.client.gui.screen.ingame.LimitedInventoryScreen": true,
-    "dev.doctor4t.trainmurdermystery.client.gui.screen.ingame.NoteScreen": false
+    "dev.doctor4t.wathe.client.gui.screen.ingame.LimitedInventoryScreen": true,
+    "dev.doctor4t.wathe.client.gui.screen.ingame.NoteScreen": false
   },
   "hideBackground": {
-    "dev.doctor4t.trainmurdermystery.client.gui.screen.ingame.LimitedInventoryScreen": true
+    "dev.doctor4t.wathe.client.gui.screen.ingame.LimitedInventoryScreen": true
   }
 }

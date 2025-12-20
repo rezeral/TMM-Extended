@@ -9,6 +9,8 @@
 	voodooNonKillerDeaths: false,
 	// Makes voodoos act like Evil players when shot by a revolver (no backfire, no gun lost)
 	voodooShotLikeEvil: false,
+	// Civillians can get the guesser modifier.
+	allowCivillianGuessers: false,
 	// How the guesser dies after an incorrect guess.
 	// "none" (default) - nothing happens, 2 minute cooldown applied
 	// "death" kills the player with a voodoo death message

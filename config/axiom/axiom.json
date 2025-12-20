@@ -95,7 +95,7 @@
     }
   },
   "visuals": {
-    "minBrightness": 100,
+    "minBrightness": 0,
     "liquidOpacity": 100,
     "showBiomes": false,
     "showAnnotations": true,

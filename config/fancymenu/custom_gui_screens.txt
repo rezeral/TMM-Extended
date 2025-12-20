@@ -4,8 +4,8 @@ overridden_screens {
 }
 
 custom_gui {
-  identifier = tmm_options_roles
-  title = TMM Options - Roles
+  identifier = wathe_options
+  title = Wathe Options
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -15,8 +15,8 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = tmm_options
-  title = TMM Options
+  identifier = wathe_options_settings
+  title = Wathe Options - Settings
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -26,8 +26,8 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = tmm_options_settings
-  title = TMM Options - Settings
+  identifier = wathe_options_tasks
+  title = Wathe Options - Tasks
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -37,8 +37,8 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = tmm_options_tasks
-  title = TMM Options - Tasks
+  identifier = wathe_options_roles
+  title = Wathe Options - Roles
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
