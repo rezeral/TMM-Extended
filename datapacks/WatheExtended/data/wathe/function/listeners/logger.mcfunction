@@ -3,9 +3,6 @@
 # If no players are in creative, disable debug
 execute unless entity @a[gamemode=creative] if score debug wathe_debug matches 1 run function wathe:debug/disable
 
-# Sets Wathe time of day visual to NIGHT when players get back to the lobby
-execute as @a[x=-1042,dx=273,y=-64,dy=384,z=-442,dz=135] run wathe:setVisual time night
-
 # Update debug UI entries
 execute if score debug wathe_debug matches 1 run scoreboard players operation §dintTimer wathe_debug_ui = timer wathe_timer
 execute if score debug wathe_debug matches 1 run scoreboard players operation §aisReady wathe_debug_ui = ready wathe_ready
