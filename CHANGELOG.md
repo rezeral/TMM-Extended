@@ -1,3 +1,65 @@
+# beta-2.4.132
+
+## ⛄ Small Christmas Update!
+This update adds several new roles and couple fixes, and includes a new holiday theme for the lobby. Have fun and happy holidays!
+<br> I'd like to also thanks everyone that've shown support regarding the modpack developpement, it means a lot! Note that supporting me on Patreon is fully optional and I'm not asking for it, doing it will not grant you access to the **Supporter Commands**, consider subscribing to [doctor4t](https://www.patreon.com/cw/doctor4t)'s instead, they are the one you should support first! But still, thank you so much, all of you are awesome! ❤️
+
+![Happy Holidays](https://raw.githubusercontent.com/rezeral/Wathe-Extended/master/.github/assets/img/happy_holidays.png)
+
+### 🆕 Additions
+- New roles:
+  - **Amnesiac**
+  <br> Neutral Role 
+  <br> Can permanently take any dead body's role for the rest of the round. Adopting their abilities and win condition.
+  - **Arsonist**
+  <br> Neutral Role
+  <br> Spawn with a *Gas Can* and a *Lighter*
+  <br> Their goal is to douse all players and ignite them all.
+  <br> Igniting the *Lighter* too early will kill them.
+  - **Necromancer** *(Enabled when more than 1 Killer)*
+  <br> Killer Role
+  <br> When a Killer dies, they have the opportunity to bring someone back from the dead to work for them.
+  - **Avaricious** *(Enabled when more than 1 Killer)*
+  <br> Killer Role
+  <br> Starts the game with 50 coins.
+  <br> Gains 30 coins for every player which is around them (excluding themselves).
+- Added modifiers:
+  - **Guesser**
+  <br> Can guess player's role: if the guess is correct the player dies; if wrong, the Guesser dies.
+  - **Tiny**
+  <br> Makes the player smaller, that's it.
+  - **Chameleon**
+  <br> Makes the player slowly fading away when standing still.
+  - **Lovers**
+  <br> Two players become romantically linked and share the same win condition: they win or lose together regardless of their respective sides.
+      - If both lovers are Civilians, they can still win alongside other Civilians.
+  - **Allergic** *(Disabled by default)*
+  <br> The player is allergic to some food or drink; consuming the affected item can trigger up to three different side effects.
+- Added *Snowball* plates in the lobby and at the end of the train, have fun :D
+- Wathe Extended datapack:
+  - Toggling Debug Mode will show interactions safeguards areas, turning it off will hide them. (CAN CAUSE CLIENT LAG!)
+  - Added functions to disable or re-enable interaction safeguards
+
+### 📋 Changes
+- Gameplay balancing:
+  - Limited "Knife Prepare" animation max use to 5 seconds to prevent "cheesing and waiting around a corner with a knife ready" really long strat
+- Disabled player cape by default since it's conflicting with some roles and modifiers mechanics.
+- Blood particle effects are now client-sided, and always shown by default.
+- Wathe mod updated to version [1.3.2](https://modrinth.com/mod/wathe/version/1.3.2-1.21.1)
+
+### 🔧 Fixes
+
+- Jesters not seeing Killer Roles in pink-colored glowing effect while using Instinct
+- Train horn not starting the murder mystery game mode at night how intended
+- Wathe Extended datapack:
+  - Debug items being gived multiples times to creative players when another player switched to creative
+  - Default facing positions of the random teleportation coordinates
+  - *Teleport to Train* item not being given properly to players inside the lobby area
+    - The item will also be removed to players that are inside the train in the lobby to avoid cheesing the random teleportation script
+  - Stuff regarding the random teleportation logic
+    - Random teleportation at the start of the game now being executed after the screen fades to black
+    - Rewriten coordinates that were missplaced
+
 # beta-2.3.130
 
 ### 🆕 Additions
