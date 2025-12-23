@@ -3,15 +3,12 @@
 	disabled: [
 		"awesome_binglus",
 		"the_insane_damned_paranoid_killer",
-		"noisemaker",
 		"better_vigilante"
 	],
 	// Which Modifiers should be disabled. Modifiers also show up in /listRoles and /setEnabledModifier.
-	disabledModifiers: [
-		"allergic"
-	],
+	disabledModifiers: [],
 	// Maximum amount of modifiers a player can have.
 	modifierMaximum: 1,
 	// How many modifiers should be given relative to the Killer Dividend
-	modifierMultiplier: 0
+	modifierMultiplier: 1
 }
