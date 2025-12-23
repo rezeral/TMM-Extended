@@ -1,3 +1,23 @@
+# beta-2.6.132
+
+### 📋 Changes
+- Gameplay balancing:
+  - **Mimic** can now punch players. If they punch an innocent player and that the player ends up dieing, the **Mimic** will also die.
+- **Noisemaker** role is now enabled by default.
+- **Allergic** modifier is now enabled by default.
+
+### 🔧 Fixes
+- Modifiers multiplier dividend being 0 instead of 1.
+- **The Insane Damned Paranoid Killer** can no longer get the ***Guesser*** modifier.
+- Chameleon invisibility improvements.
+- Wathe Extended Datapack:
+  - Some function cleaning & improvements (might do rewrite a lot of things later for optimization, still very messy)
+  - Improved interaction safeguards state control.
+  - Supporter Commands chat spam.
+  - Objectives and scoreboard will now persist between reloads, so functions are sync properly.
+  - Datapack not loading properly due to it calling YAWP commands before actual config is loaded.
+    - If you have any issues with the datapack not loading stuff properly, use `/reload` command.
+
 # beta-2.5.132
 
 ## ⛄ Small Christmas Update!
