@@ -1,3 +1,47 @@
+# beta-2.7.132
+
+### 🆕 Additions
+- Added a new in-game Guidebook that gives informations about Roles and Modifiers from the game and add-ons, can be opened though the inventory
+- New roles:
+  - **Trapper**
+    <br> Civilian Role
+    <br> Can purshase a *Role Mine*.
+    <br> Gains 50 coins per tasks done.
+    <br> The *Role Mine* can be placed and can gets the roles of 3 people that pass into it's area. 
+    <br> The *Role Mine* makes a beep sound alerting any players that got trapped.
+    <br> It does not mention the names of the players; only their roles.
+  - **Initiate**
+    <br> Neutral Role
+    <br> Has to kill the other **Initiate** in order to become a Killer.
+    <br> Gains 50 coins per tasks done.
+    <br> If either of the Initiates die from anyone other than another **Initiate**, the alive Initiate becomes an **Amnesiac**
+    <br> If an **Initiate** attempts to kill a player that isn't the other **Initiate**, the **Killer Initiate** will drop dead instead
+  - **Muzzler**
+    <br> Killer Role
+    <br> Can silence any players for 75 coins
+    <br> When Muzzled, staying outside for too long will suffocate you, and other players can't hear you speak.
+  - **Starstruck**
+    <br> Civilian Role
+    <br> Can use Starstruck ability once every 90 seconds.
+    <br> While Starstruck, can move faster and see players though walls using instinct for 15 seconds.
+    <br> Upon completing their current task, the ability cooldown will be decreased by 5 seconds.
+- Added modifiers:
+  - **Graverobber**
+    <br> Killer Only
+    <br> Can see the role, reason and time of death of the dead bodies.
+  - **Feather**
+    <br> Does not have collisions
+    <br> Has *Slow Falling*
+### 📋 Changes
+- Gameplay balancing:
+  - The **Executioner** can now pick up guns
+  - The **Amnesiac** is now considered a Neutral Role
+  - The **Amnesiac** can no longer pick up guns, unless they've taken a good role
+  - Guns don't drop when shooting at the Amnesiac
+### 🔧 Fixes
+- `/setEnabledModifier` not working properly
+- Various translations fixes
+
 # beta-2.6.132
 
 ### 📋 Changes
